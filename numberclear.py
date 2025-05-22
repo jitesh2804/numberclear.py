@@ -28,8 +28,8 @@ TABLES = [
     "nottamil_2_hopper"
 ]
 
-# Stuck record duration (10 minutes)
-STUCK_DURATION = timedelta(minutes=10)
+# Stuck record duration (20 minutes)
+STUCK_DURATION = timedelta(minutes=20)
 
 def send_email_alert(table, stuck_records):
     subject = f"Alert: Stuck Records in {table}"
